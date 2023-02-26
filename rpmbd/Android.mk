@@ -20,6 +20,8 @@ ifeq ($(BOARD_USES_RPMB), true)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE := rpmbd
+LOCAL_VENDOR_MODULE := true
+
 LOCAL_SRC_FILES := \
 		rpmbd.c
 LOCAL_SHARED_LIBRARIES := libc libcutils

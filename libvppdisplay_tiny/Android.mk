@@ -38,6 +38,7 @@ LOCAL_SRC_FILES := \
 
 
 LOCAL_MODULE := libdisplay
+LOCAL_VENDOR_MODULE := true
 
 include $(TOP)/hardware/samsung_slsi/exynos/BoardConfigCFlags.mk
 include $(BUILD_SHARED_LIBRARY)
