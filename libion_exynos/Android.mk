@@ -22,7 +22,7 @@ LOCAL_SRC_FILES:= \
 
 LOCAL_MODULE := libion_exynos
 LOCAL_VENDOR_MODULE := true
-
+LOCAL_SHARED_LIBRARIES := libutils liblog
 LOCAL_MODULE_TAGS := optional
 
 include $(TOP)/hardware/samsung_slsi/exynos/BoardConfigCFlags.mk

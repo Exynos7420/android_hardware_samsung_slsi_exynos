@@ -40,6 +40,7 @@
 #define LOG_TAG "libexynosv4l2-subdev"
 #include <utils/Log.h>
 #include <string.h>
+#include <unistd.h>
 
 #define SUBDEV_MAX 191
 

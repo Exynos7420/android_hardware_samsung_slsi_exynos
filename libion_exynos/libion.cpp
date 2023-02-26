@@ -18,7 +18,7 @@
 #include <fcntl.h>
 #include <sys/mman.h>
 #include <sys/ioctl.h>
-#include <cutils/log.h>
+#include <utils/Log.h>
 
 struct ion_allocation_data {
     size_t len;

@@ -30,9 +30,9 @@ LOCAL_ADDITIONAL_DEPENDENCIES += \
 	$(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 LOCAL_SHARED_LIBRARIES := \
-	liblog \
 	libutils \
-	libexynosutils 
+	libexynosutils \
+	liblog
 
 LOCAL_MODULE := libexynosv4l2
 LOCAL_PRELINK_MODULE := false

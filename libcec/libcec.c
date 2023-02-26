@@ -21,7 +21,7 @@
 #include <sys/ioctl.h>
 #include <unistd.h>
 #include <stdlib.h>
-#include <cutils/log.h>
+#include <utils/Log.h>
 
 /* drv. header */
 #include "cec.h"

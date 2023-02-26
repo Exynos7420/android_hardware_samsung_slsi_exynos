@@ -45,12 +45,12 @@
 #define HWC_REMOVE_DEPRECATED_VERSIONS 1
 
 #include <cutils/compiler.h>
-#include <cutils/log.h>
 #include <cutils/properties.h>
 #include <hardware/gralloc.h>
 #include <hardware/hardware.h>
 #include <hardware/hwcomposer.h>
 #include <hardware_legacy/uevent.h>
+#include <utils/Log.h>
 #include <utils/String8.h>
 #include <utils/Vector.h>
 #include <utils/Timers.h>

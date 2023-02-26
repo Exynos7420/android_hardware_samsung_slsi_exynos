@@ -16,8 +16,8 @@ LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_PRELINK_MODULE := false
-LOCAL_SHARED_LIBRARIES := liblog libion libutils libcutils libexynosutils \
-	libexynosv4l2 libsync libhwcutils
+LOCAL_SHARED_LIBRARIES := libion libutils libcutils libexynosutils \
+	libexynosv4l2 libsync libhwcutils liblog
 #ifeq ($(BOARD_USES_FIMC), true)
 #LOCAL_SHARED_LIBRARIES += libexynosfimc
 #else

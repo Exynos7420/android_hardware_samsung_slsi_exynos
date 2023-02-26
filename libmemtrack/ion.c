@@ -19,7 +19,7 @@
 #include <string.h>
 #include <sys/mman.h>
 #include <sys/stat.h>
-#include <cutils/log.h>
+#include <utils/Log.h>
 
 #include <hardware/memtrack.h>
 

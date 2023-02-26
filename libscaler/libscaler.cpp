@@ -33,6 +33,7 @@
 #include <sys/ioctl.h>
 #include <errno.h>
 #include <fcntl.h>
+#include <unistd.h>
 #include <system/graphics.h>
 
 #include "exynos_scaler.h"
