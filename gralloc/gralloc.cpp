@@ -507,7 +507,7 @@ static int gralloc_alloc(alloc_device_t* dev,
     if (err)
         goto err;
 
-    *pHandle = (buffer_handle_t)hnd;
+    *pHandle = hnd;
     *pStride = stride;
     return 0;
 err:
