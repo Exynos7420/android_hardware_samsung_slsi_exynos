@@ -39,7 +39,7 @@
 #include <media/hardware/MetadataBufferType.h>
 #include <utils/Endian.h>
 
-#include <linux/videodev2.h>
+#include <videodev2.h>
 
 #include "ISecCameraHardware.h"
 

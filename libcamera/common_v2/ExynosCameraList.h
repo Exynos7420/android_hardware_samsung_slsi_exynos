@@ -124,15 +124,13 @@ public:
     /* Process Queue */
     void pushProcessQ(T *buf)
     {
-        char threadName[30] = "ExynosCameraQueueThread";
-
         Mutex::Autolock lock(m_processQMutex);
         m_processQ.push_back(*buf);
 
         if (m_waitProcessQ)
             m_processQCondition.signal();
         else if (m_thread != NULL && m_thread->isRunning() == false)
-            m_thread->run(threadName);
+            m_thread->run();
     };
 
     status_t popProcessQ(T *buf)
